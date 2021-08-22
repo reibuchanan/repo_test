@@ -1,0 +1,38 @@
+* {
+    font-family: 'Gowun Batang', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: #cc3939e3;
+    background-image: url("https://freight.cargo.site/t/original/i/ab2adf1dbdb202d4c7a39a453148b1d298b057cb6c6ced376187955b626cd1d7/TRIBAL-MUA-5_0143.png");
+    background-position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width:768px) {
+    .content {
+        width: 70%;
+    }
+}
+
+.mark {
+    color: white;
+    font-weight: 700;
+}

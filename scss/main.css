@@ -1,0 +1,290 @@
+* {
+  font-family: 'Gowun Batang', serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background-color: #cc3939e3;
+  background-image: url("https://freight.cargo.site/t/original/i/ab2adf1dbdb202d4c7a39a453148b1d298b057cb6c6ced376187955b626cd1d7/TRIBAL-MUA-5_0143.png");
+  background-position: relative;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto 5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    width: 70%;
+  }
+}
+
+.mark {
+  color: white;
+  font-weight: 700;
+}
+
+title {
+  font-family: 'Cabin', sans-serif;
+  text-transform: uppercase;
+  color: #F5F5F5;
+  text-align: center;
+  padding: 7rem 0;
+  font-size: 5rem;
+}
+
+.subtitle {
+  color: aliceblue;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 8rem 0 3rem;
+  font-family: 'Cabin', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*footer styling*/
+footer {
+  margin: 100% 80% 0px 0px;
+  padding-left: 10px;
+  position: relative;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  background-color: rgba(0, 0, 0, 0.753);
+  margin-top: 8rem;
+  bottom: 0px;
+  left: 0px;
+  z-index: 4;
+  color: white;
+  text-align: left;
+}
+
+header {
+  background-image: url("https://images.pexels.com/photos/3374210/pexels-photo-3374210.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.nav {
+  position: relative;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Cabin', sans-serif;
+  padding: 1rem;
+}
+
+.nav .nav__brand a,
+.nav .nav__links li a {
+  display: block;
+  padding: .3rem;
+  font-family: 'Cabin', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8rem;
+  position: relative;
+  color: #F5F5F5;
+}
+
+.nav .nav__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.nav .nav__brand a {
+  font-size: 1.5rem;
+}
+
+.nav .nav__brand i {
+  color: #F5F5F5;
+}
+
+.nav .nav__links li a::before {
+  content: '';
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #EF9AD4;
+  z-index: -1;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.nav .nav__links li a.active {
+  color: #F5F5F5;
+}
+
+.nav .nav__links li a.active::before {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .nav .nav__links {
+    margin: 0 3rem;
+  }
+  .nav .nav__links li a {
+    position: relative;
+    display: block;
+    padding: .5rem;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2rem;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+  }
+  .nav .nav__links li:hover a {
+    color: #F5F5F5;
+  }
+  .nav .nav__links li:hover a::before {
+    width: 100%;
+  }
+}
+
+.images {
+  display: -ms-grid;
+  display: grid;
+  width: 95%;
+  margin: auto;
+  -ms-grid-columns: (300px)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 300px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 1.5rem;
+}
+
+.card {
+  width: 100%;
+  /* height: 30em; */
+  position: relative;
+}
+
+.card::before {
+  content: '';
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #681159a4;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.card:hover::before {
+  left: 0;
+  width: 100%;
+  right: auto;
+}
+
+.card:hover img {
+  -webkit-transform: scale(1.2) rotate(2deg);
+          transform: scale(1.2) rotate(2deg);
+}
+
+.card p {
+  color: aliceblue;
+  overflow: auto;
+  margin: .4rem 0;
+}
+
+.card__image {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: .4rem 0;
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.card .card__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+/*FILM PAGE VIDEO*/
+.video_Wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 0px;
+  height: auto;
+  width: 870px;
+}
+
+.video_Wrapper.dreams {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  height: auto;
+  width: 100%;
+  height: auto;
+}
+
+.film_Img_wapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 0px;
+  display: block;
+  height: auto;
+  width: 870px;
+}
+
+.film_Img_wapper img {
+  display: block;
+  width: 100%;
+  height: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+/*# sourceMappingURL=main.css.map */
