@@ -18,7 +18,9 @@
     text-decoration: none;
     font-size: .8rem;
     position: relative;
-    color: #F5F5F5;
+    color: rgba(239, 247, 243, 0.959);
+    text-shadow: 3px 3px 3px rgb(7, 3, 17);
+    font-weight: bold;
 }
 
 .nav .nav__links {
@@ -29,10 +31,12 @@
 
 .nav .nav__brand a {
     font-size: 1.5rem;
+    color: rgba(239, 247, 243, 0.959);
+    text-shadow: 3px 3px 3px rgb(7, 3, 17);
 }
 
 .nav .nav__brand i {
-    color: #F5F5F5;
+    color: rgba(196, 11, 140, 0.959);
 }
 
 .nav .nav__links li a::before {
@@ -42,13 +46,13 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #EF9AD4;
+    background-color: #13030e;
     z-index: -1;
     transition: all .4s;
 }
 
 .nav .nav__links li a.active {
-    color: #F5F5F5;
+    color: rgba(8, 240, 58, 0.959);
 }
 
 .nav .nav__links li a.active::before {
@@ -73,7 +77,7 @@
         transition: all .4s;
     }
     .nav .nav__links li:hover a {
-        color: #F5F5F5;
+        color: rgba(8, 240, 58, 0.959);
     }
     .nav .nav__links li:hover a::before {
         width: 100%;

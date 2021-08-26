@@ -7,8 +7,9 @@
 }
 
 body {
+    height: 100%;
     background-color: #cc3939e3;
-    background-image: url("https://freight.cargo.site/t/original/i/ab2adf1dbdb202d4c7a39a453148b1d298b057cb6c6ced376187955b626cd1d7/TRIBAL-MUA-5_0143.png");
+    background-image: url("https://freight.cargo.site/t/original/i/66c57118c402645821b4a1a0bb271e350a09337caa1f535f8aa045910a086b90/crias-4_0308.png");
     background-position: relative;
     top: 0px;
     left: 0px;
@@ -33,6 +34,21 @@ body {
 }
 
 .mark {
-    color: white;
+    color: rgba(212, 6, 150, 0.753);
     font-weight: 700;
+}
+
+section {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    width: 94%;
+}
+
+.section_H {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    width: 94%;
+    padding-top: 100%;
 }

@@ -8,9 +8,40 @@ title {
 }
 
 .subtitle {
-    color: aliceblue;
+    color: rgba(239, 247, 243, 0.959);
+    text-shadow: 3px 3px 3px rgb(7, 3, 17);
     font-size: 2.5rem;
     text-transform: uppercase;
     margin: 8rem 0 3rem;
     font-family: 'Cabin', sans-serif;
+}
+
+.card_Subtitle {
+    color: rgba(191, 14, 214, 0.959);
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card p {
+    font-weight: bold;
+    color: rgba(12, 196, 126, 0.938);
+    overflow: auto;
+    margin: .4rem 0;
+}
+
+.content p {
+    color: rgba(239, 247, 243, 0.959);
+    text-shadow: 3px 3px 3px rgb(7, 3, 17);
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer p {
+    color: rgba(255, 255, 255, 0.959);
+    text-shadow: 3px 3px 3px rgb(7, 3, 17);
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 60px;
 }

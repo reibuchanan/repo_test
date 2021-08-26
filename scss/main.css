@@ -8,8 +8,9 @@
 }
 
 body {
+  height: 100%;
   background-color: #cc3939e3;
-  background-image: url("https://freight.cargo.site/t/original/i/ab2adf1dbdb202d4c7a39a453148b1d298b057cb6c6ced376187955b626cd1d7/TRIBAL-MUA-5_0143.png");
+  background-image: url("https://freight.cargo.site/t/original/i/66c57118c402645821b4a1a0bb271e350a09337caa1f535f8aa045910a086b90/crias-4_0308.png");
   background-position: relative;
   top: 0px;
   left: 0px;
@@ -34,8 +35,23 @@ body {
 }
 
 .mark {
-  color: white;
+  color: rgba(212, 6, 150, 0.753);
   font-weight: 700;
+}
+
+section {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+  width: 94%;
+}
+
+.section_H {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+  width: 94%;
+  padding-top: 100%;
 }
 
 title {
@@ -48,11 +64,42 @@ title {
 }
 
 .subtitle {
-  color: aliceblue;
+  color: rgba(239, 247, 243, 0.959);
+  text-shadow: 3px 3px 3px #070311;
   font-size: 2.5rem;
   text-transform: uppercase;
   margin: 8rem 0 3rem;
   font-family: 'Cabin', sans-serif;
+}
+
+.card_Subtitle {
+  color: rgba(191, 14, 214, 0.959);
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+.card p {
+  font-weight: bold;
+  color: rgba(12, 196, 126, 0.938);
+  overflow: auto;
+  margin: .4rem 0;
+}
+
+.content p {
+  color: rgba(239, 247, 243, 0.959);
+  text-shadow: 3px 3px 3px #070311;
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer p {
+  color: rgba(255, 255, 255, 0.959);
+  text-shadow: 3px 3px 3px #070311;
+  text-align: right;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 60px;
 }
 
 * {
@@ -61,23 +108,23 @@ title {
 }
 
 /*footer styling*/
-footer {
-  margin: 100% 80% 0px 0px;
-  padding-left: 10px;
+.footer {
+  width: 100%;
+  height: 80px;
+  margin: 0px;
   position: relative;
-  display: -ms-inline-grid;
-  display: inline-grid;
-  background-color: rgba(0, 0, 0, 0.753);
-  margin-top: 8rem;
+  display: block;
+  background-image: url("https://freight.cargo.site/t/original/i/398e916dbe85ff2f96df33fdc918de549fd315c6589452f36fc14c932c332f7d/stones-all-002-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   bottom: 0px;
   left: 0px;
   z-index: 4;
-  color: white;
-  text-align: left;
 }
 
 header {
-  background-image: url("https://images.pexels.com/photos/3374210/pexels-photo-3374210.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("https://freight.cargo.site/t/original/i/398e916dbe85ff2f96df33fdc918de549fd315c6589452f36fc14c932c332f7d/stones-all-002-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -112,7 +159,9 @@ header {
   text-decoration: none;
   font-size: .8rem;
   position: relative;
-  color: #F5F5F5;
+  color: rgba(239, 247, 243, 0.959);
+  text-shadow: 3px 3px 3px #070311;
+  font-weight: bold;
 }
 
 .nav .nav__links {
@@ -125,10 +174,12 @@ header {
 
 .nav .nav__brand a {
   font-size: 1.5rem;
+  color: rgba(239, 247, 243, 0.959);
+  text-shadow: 3px 3px 3px #070311;
 }
 
 .nav .nav__brand i {
-  color: #F5F5F5;
+  color: rgba(196, 11, 140, 0.959);
 }
 
 .nav .nav__links li a::before {
@@ -138,14 +189,14 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #EF9AD4;
+  background-color: #13030e;
   z-index: -1;
   -webkit-transition: all .4s;
   transition: all .4s;
 }
 
 .nav .nav__links li a.active {
-  color: #F5F5F5;
+  color: rgba(8, 240, 58, 0.959);
 }
 
 .nav .nav__links li a.active::before {
@@ -174,7 +225,7 @@ header {
     transition: all .4s;
   }
   .nav .nav__links li:hover a {
-    color: #F5F5F5;
+    color: rgba(8, 240, 58, 0.959);
   }
   .nav .nav__links li:hover a::before {
     width: 100%;
@@ -195,6 +246,8 @@ header {
 }
 
 .card {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.884);
   width: 100%;
   /* height: 30em; */
   position: relative;
@@ -207,7 +260,7 @@ header {
   position: absolute;
   width: 0%;
   height: 2px;
-  background-color: #681159a4;
+  color: #681159a4;
   -webkit-transition: all .4s;
   transition: all .4s;
 }
@@ -223,13 +276,8 @@ header {
           transform: scale(1.2) rotate(2deg);
 }
 
-.card p {
-  color: aliceblue;
-  overflow: auto;
-  margin: .4rem 0;
-}
-
 .card__image {
+  border-radius: 10px;
   font-family: 'Cabin', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -277,7 +325,7 @@ header {
   padding: 0px;
   display: block;
   height: auto;
-  width: 870px;
+  width: 550px;
 }
 
 .film_Img_wapper img {
@@ -286,5 +334,272 @@ header {
   height: 50%;
   -o-object-fit: fill;
      object-fit: fill;
+}
+
+#contact {
+  width: 100%;
+  height: 100%;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 60px 'Oswald', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contact-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  max-width: 840px;
+}
+
+/* Left contact page */
+.form-horizontal {
+  /*float: left;*/
+  max-width: 400px;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+.form-control,
+textarea {
+  max-width: 400px;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.alt-send-button {
+  width: 400px;
+  height: 34px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+  -webkit-transform: translate3d(0px, -29px, 0px);
+          transform: translate3d(0px, -29px, 0px);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+  max-width: 400px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #bbb;
+  text-decoration: none;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li {
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 10px 3px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #1b1b1b;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-box-shadow: 0 0 0 1px #fff;
+          box-shadow: 0 0 0 1px #fff;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1.12);
+          transform: scale(1.12);
+  -webkit-transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+          transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+  color: #000;
+}
+
+.copyright {
+  font: 200 14px 'Oswald', sans-serif;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+  .contact-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .direct-contact-container,
+  .form-horizontal {
+    margin: 0 auto;
+  }
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 300px;
+  }
+  .social-media-list li {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .social-media-list li:after {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .direct-contact-container,
+  .form-wrapper {
+    float: none;
+    margin: 0 auto;
+  }
+  .form-control,
+  textarea {
+    margin: 0 auto;
+  }
+  .name,
+  .email,
+  textarea {
+    width: 280px;
+  }
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 280px;
+  }
+  .social-media-list {
+    left: 0;
+  }
+  .social-media-list li {
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    font-size: 2rem;
+  }
+  .social-media-list li:after {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .send-button {
+    width: 99%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

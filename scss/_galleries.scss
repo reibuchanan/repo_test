@@ -8,6 +8,8 @@
 }
 
 .card {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.884);
     width: 100%;
     /* height: 30em; */
     position: relative;
@@ -20,7 +22,7 @@
     position: absolute;
     width: 0%;
     height: 2px;
-    background-color: #681159a4;
+    color: #681159a4;
     transition: all .4s;
 }
 
@@ -34,13 +36,8 @@
     transform: scale(1.2) rotate(2deg);
 }
 
-.card p {
-    color: aliceblue;
-    overflow: auto;
-    margin: .4rem 0;
-}
-
 .card__image {
+    border-radius: 10px;
     font-family: 'Cabin', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
@@ -87,7 +84,7 @@
     padding: 0px;
     display: block;
     height: auto;
-    width: 870px
+    width: 550px
 }
 
 .film_Img_wapper img {
