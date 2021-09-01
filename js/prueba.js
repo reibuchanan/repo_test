@@ -1,4 +1,3 @@
-/*MAIN ANIMATION HOME PAGE*/
 let renderer,
     scene,
     camera,
@@ -48,12 +47,12 @@ function init() {
     controls.enablePan = false;
 
     const loader = new THREE.TextureLoader();
-    const textureSphereBg = loader.load('https://freight.cargo.site/t/original/i/24f71b25848b44928907e2b8a68d93bfda5c7bb0406d8d6bb38fb6f53be271dc/SITA-2.png');
-    const texturenucleus = loader.load('https://i.ibb.co/hcN2qXk/star-nc8wkw.jpg');
-    const textureStar = loader.load("https://i.ibb.co/ZKsdYSz/p1-g3zb2a.png");
-    const texture1 = loader.load("https://i.ibb.co/F8by6wW/p2-b3gnym.png");
-    const texture2 = loader.load("https://i.ibb.co/yYS2yx5/p3-ttfn70.png");
-    const texture4 = loader.load("https://i.ibb.co/yWfKkHh/p4-avirap.png");
+    const textureSphereBg = loader.load('https://freight.cargo.site/t/original/i/ccb4e4351051b34b5b43862fea6f4cc61e82dc827b32163c45af2f28483332cd/crias-2_0400-glow.png');
+    const texturenucleus = loader.load('https://freight.cargo.site/t/original/i/66c57118c402645821b4a1a0bb271e350a09337caa1f535f8aa045910a086b90/crias-4_0308.png');
+    const textureStar = loader.load("https://freight.cargo.site/t/original/i/66c57118c402645821b4a1a0bb271e350a09337caa1f535f8aa045910a086b90/crias-4_0308.png");
+    const texture1 = loader.load("https://freight.cargo.site/t/original/i/66c57118c402645821b4a1a0bb271e350a09337caa1f535f8aa045910a086b90/crias-4_0308.png");
+    const texture2 = loader.load("https://freight.cargo.site/t/original/i/66c57118c402645821b4a1a0bb271e350a09337caa1f535f8aa045910a086b90/crias-4_0308.png");
+    const texture4 = loader.load("https://freight.cargo.site/t/original/i/66c57118c402645821b4a1a0bb271e350a09337caa1f535f8aa045910a086b90/crias-4_0308.png");
 
 
     /*  Nucleus  */

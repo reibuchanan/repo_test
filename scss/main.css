@@ -346,7 +346,8 @@ header {
   margin: 0 auto;
   padding: 40px 0;
   font: 300 60px 'Oswald', sans-serif;
-  color: #fff;
+  color: #f7f2ff;
+  text-shadow: 2px 3px 1px black;
   text-transform: uppercase;
   letter-spacing: 6px;
 }
