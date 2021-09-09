@@ -658,15 +658,10 @@ hr {
     object-fit: cover;
 
 }
-.carousel-control-prev,
-  .carousel-control-prev-icon,
-  .carousel-control-next ,
-  .carousel-control-next-icon {
-    position: absolute;
-    top: 50%;
-    margin-top: -10px; /* fix */
-    z-index: 5;
-    display: inline-block;
-  }
+
+  .carousel-control-prev,
+.carousel-control-next{
+      bottom: 50%;
+}
 
 /*# sourceMappingURL=main.css.map */
