@@ -659,10 +659,13 @@ hr {
 
 }
 
-  .carousel-control-prev,
-.carousel-control-next{
+  
+.carousel-control-next,.carousel-control-next-icon{
+    position: absolute; 
+    right: 0;
       bottom: 50%;
-      margin: 0px
+    
+      
     ;
 }
 
