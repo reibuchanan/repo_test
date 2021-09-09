@@ -652,7 +652,7 @@ hr {
 
 
 /*boostrap carousel*/
-.carousel-item img {
+.carousel-item {
     max-height: 300px;
     margin: 0 auto;
 }
