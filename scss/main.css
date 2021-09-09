@@ -650,4 +650,11 @@ hr {
 }
 
 
+
+/*boostrap carousel*/
+.carousel-inner{
+    .carousel-item { height: 70vh;
+ img{ height: 70vh;
+object-fit: cover;}}}
+
 /*# sourceMappingURL=main.css.map */
