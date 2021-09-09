@@ -654,7 +654,7 @@ hr {
 /*boostrap carousel*/
 .carousel-about{ height: 70vh;
 }
-.carousel-item {
+.carousel-item ,img{
     max-height: 100%;
 
     
