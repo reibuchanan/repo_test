@@ -655,8 +655,8 @@ hr {
 .carousel-about{height: 70vh;
 }
 .carousel-item {
-    max-height: 300px;
-    margin: 0 auto;
+    max-height: 70vh;
+    
 }
 
 /*# sourceMappingURL=main.css.map */
