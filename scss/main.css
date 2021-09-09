@@ -661,11 +661,18 @@ hr {
 
   
 .carousel-control-next,.carousel-control-next-icon{
-    position: relative; 
+    position: absolute; 
     right: 0px;
       bottom: 50%;
  top: 50%;
 left: 90%;
+}
+carousel-control-prev,.carousel-control-prev-icon{
+    position: absolute; 
+    left: 0px;
+      bottom: 50%;
+ top: 50%;
+right: 90%;
 }
 
 
