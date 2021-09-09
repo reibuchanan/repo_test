@@ -655,7 +655,7 @@ hr {
 
 .carousel-item { height: 70vh;
 }
-.carousel-item {
+.carousel-item,img {
     height: 100%;
 
     
