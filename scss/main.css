@@ -662,6 +662,8 @@ hr {
   .carousel-control-prev,
 .carousel-control-next{
       bottom: 50%;
+      margin: 0px
+    ;
 }
 
 /*# sourceMappingURL=main.css.map */
