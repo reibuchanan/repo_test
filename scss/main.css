@@ -662,11 +662,10 @@ hr {
   
 .carousel-control-next,.carousel-control-next-icon{
     position: absolute; 
-    right: 0;
+    right: 0px;
       bottom: 50%;
-    
-      
-    ;
+ top: 50%;
+left: 200px;
 }
 
 /*# sourceMappingURL=main.css.map */
