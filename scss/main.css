@@ -670,9 +670,10 @@ left: 90%;
 carousel-control-prev,.carousel-control-prev-icon{
     position: absolute; 
     left: 0px;
+    right: 80%;
       bottom: 50%;
  top: 50%;
-right: 80%;
+
 }
 
 
