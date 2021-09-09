@@ -656,5 +656,9 @@ hr {
 .carousel-item { width: 100%;
     height: 70vh;
 }
+.puto-b {
+    object-fit: contain;
+
+}
 
 /*# sourceMappingURL=main.css.map */
