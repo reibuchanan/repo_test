@@ -23,7 +23,7 @@ body {
 }
 
 #canvas_container {
-    width: 100%;
+    width: 100vh;
     height: 100%;
 }
 
