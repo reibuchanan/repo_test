@@ -71,7 +71,7 @@ body {
 }
 
 
-/*section {
+section {
   display: block;
   height: 100%;
   margin: 0 auto;
@@ -85,7 +85,7 @@ body {
   width: 94%;
   padding-top: 100%;
 }
-*/
+
 
 title {
     font-family: 'Cabin', sans-serif;
