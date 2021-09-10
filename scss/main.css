@@ -16,6 +16,7 @@ body {
 #section_H {
     display: block;
     height: 80vh;
+  
     background-image: url("https://freight.cargo.site/t/original/i/ccb4e4351051b34b5b43862fea6f4cc61e82dc827b32163c45af2f28483332cd/crias-2_0400-glow.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +24,7 @@ body {
 }
 
 #canvas_container {
-    width: 100vh;
+    width: 100%;
     height: 100%;
 }
 
