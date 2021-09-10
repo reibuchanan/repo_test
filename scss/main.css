@@ -113,14 +113,7 @@ title {
     font-size: 20px;
 }
 
-.footer p {
-    color: rgba(255, 255, 255, 0.959);
-    text-shadow: 3px 3px 3px #070311;
-    text-align: right;
-    font-size: 15px;
-    font-weight: bold;
-    padding-top: 60px;
-}
+
 
 * {
     margin: 0;
@@ -129,7 +122,11 @@ title {
 
 
 /*footer styling*/
+#footer {
+   
+    height: 5vh;
 
+}
 .footer {
     width: 100%;
     height: 80px;
@@ -143,6 +140,14 @@ title {
     bottom: 0px;
     left: 0px;
     z-index: 4;
+}
+.footer p {
+    color: rgba(255, 255, 255, 0.959);
+    text-shadow: 3px 3px 3px #070311;
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 60px;
 }
 
 header {
