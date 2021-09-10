@@ -651,29 +651,7 @@ hr {
 
 
 
-/*boostrap carousel*/
 
-.carousel-item { width: 100%;
-    height: 70vh;
-    object-fit: cover;
-
-}
-
-  
-.carousel-control-next,.carousel-control-next-icon{
-    position: absolute; 
-    right: 0px;
-      bottom: 50%;
- top: 50%;
-left: 90%;
-}
-.carousel-control-prev,.carousel-control-prev-icon{
-    position: absolute; 
-  
-      bottom: 50%;
- top: 50%;
-left: 0px;
-}
 
 
 /*# sourceMappingURL=main.css.map */
