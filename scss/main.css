@@ -754,6 +754,11 @@ a {
 .errorcode {
     color: white;
 }
+@media (max-width: 600px) {
+    p{
+      font: size 10px;
+    }
+  }
 
 
 
