@@ -668,7 +668,7 @@ img {
 }
 
 .not-found-overlay::before {
-    content: "";
+    content: " ";
     pointer-events: none;
     position: absolute;
     display: block;
