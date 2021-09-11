@@ -97,11 +97,11 @@ a {
     text-decoration: none;
 }
 
-a::before {
+.go_back::before {
     content: "[";
 }
 
-a::after {
+.go_back::after {
     content: "]";
 }
 
