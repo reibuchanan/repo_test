@@ -12,6 +12,7 @@ body {
     width: 100vw;
     background-color: black;
 }
+/*ANIMACION*/
 
 #section_H {
     display: block;
@@ -28,8 +29,6 @@ body {
 }
 
 
-
-/*ANIMACION*/
 
 .content {
     width: 90%;
