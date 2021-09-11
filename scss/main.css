@@ -755,7 +755,7 @@ a {
     color: white;
 }
 @media screen and (max-width: 569px) {
-    p{
+    .carousel_caption p{
       font-size: 8px;
     }
 
