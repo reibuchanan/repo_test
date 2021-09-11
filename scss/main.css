@@ -754,11 +754,10 @@ a {
 .errorcode {
     color: white;
 }
-@media (max-width: 600px) {
+@media screen and (max-width: 569px) {
     p{
-      font: size 10px;
+      font-size: 8px;
     }
-  }
 
 
 
