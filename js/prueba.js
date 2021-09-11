@@ -48,7 +48,7 @@ function init() {
 
     const loader = new THREE.TextureLoader();
     const textureSphereBg = loader.load('https://freight.cargo.site/t/original/i/ccb4e4351051b34b5b43862fea6f4cc61e82dc827b32163c45af2f28483332cd/crias-2_0400-glow.png');
-    const texturenucleus = loader.load('https://freight.cargo.site/t/original/i/66c57118c402645821b4a1a0bb271e350a09337caa1f535f8aa045910a086b90/crias-4_0308.png');
+    const texturenucleus = loader.load('https://freight.cargo.site/t/original/i/0dfb5cedebd2b8e4fd60231e39e1910052187ebce2b40d06ef7b1c0b113dde6e/txmmmmmm-0-00-56-26.png');
     const textureStar = loader.load("https://freight.cargo.site/t/original/i/66c57118c402645821b4a1a0bb271e350a09337caa1f535f8aa045910a086b90/crias-4_0308.png");
     const texture1 = loader.load("https://freight.cargo.site/t/original/i/66c57118c402645821b4a1a0bb271e350a09337caa1f535f8aa045910a086b90/crias-4_0308.png");
     const texture2 = loader.load("https://freight.cargo.site/t/original/i/66c57118c402645821b4a1a0bb271e350a09337caa1f535f8aa045910a086b90/crias-4_0308.png");
