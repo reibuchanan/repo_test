@@ -754,11 +754,15 @@ a {
 .errorcode {
     color: white;
 }
-@media screen and (max-width: 569px) {
-    .carousel_caption p{
-      font-size: 8px;
-    }
 
+    @media screen and (max-width: 569px)
+    { 
+  
+        p{
+   
+        font-size: 1.2rem;
+        }
+    }
 
 
   
