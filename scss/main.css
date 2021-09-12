@@ -755,14 +755,12 @@ a {
     color: white;
 }
 
-@media (min-width: 600px) {
-        .carousel-caption  {
+.carousel-caption  {
+    @media (min-width: 600px) {
+        
    
         font-size: 10px;
-        }
-        h5{
-            font-size: 15px;
-        }
+    
     }
 
 
