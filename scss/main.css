@@ -755,15 +755,15 @@ a {
     color: white;
 }
 
-    @media  (min-width: 300px)
+    @media  (max-width:800px)
     { 
   
         .carousel-caption  {
    
-        font-size: 5px;
+        font-size: 10px;
         }
         h5{
-            font-size: 8px;
+            font-size: 15px;
         }
     }
 
