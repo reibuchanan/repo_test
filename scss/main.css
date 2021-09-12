@@ -758,7 +758,7 @@ a {
     @media screen and (max-width: 769px)
     { 
   
-       .carousel_p{
+        .carousel-caption p {
    
         font-size: 1.2rem;
         }
