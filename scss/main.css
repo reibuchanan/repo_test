@@ -758,7 +758,7 @@ a {
     @media screen and (max-width: 569px)
     { 
   
-        p{
+       .carousel_p{
    
         font-size: 1.2rem;
         }
