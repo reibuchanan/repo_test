@@ -755,7 +755,7 @@ a {
     color: white;
 }
 
-    @media screen and (min-width: 300px)
+    @media  (min-width: 300px)
     { 
   
         .carousel-caption  {
