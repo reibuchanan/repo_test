@@ -621,24 +621,19 @@ hr {
 
 /*boostrap carousel*/
 
- .carousel-item {
+    .carousel-item {
       width: 100%;
     height: 70vh;
-
-
-}
-.carousel-caption  { color:#33ff33
-    @media (min-width: 600px) {
-        
-   
+    }
+    .carousel-caption,h5,p { 
+              color:#33ff33
+    }      
+    @media (min-width: 600px) {.carousel-caption,h5,p {
         font-size: 10px;
     
     }
-} 
-img {
-    height: 100%
- 
-}
+
+
 /*404 NOT FOUND*/
 
 .not-found-page {
