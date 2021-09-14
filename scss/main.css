@@ -626,8 +626,13 @@ hr {
     height: 70vh;
     }
     .carousel-caption h5 { 
+        font-size: 35px;
               color:#33ff33
     }      
+    .carousel-caption p { 
+        font-size: 25px;}
+
+
     @media (max-width: 600px) {.carousel-caption,h5,p {
         font-size: 10px;
     
