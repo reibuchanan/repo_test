@@ -621,10 +621,20 @@ hr {
 
 /*boostrap carousel*/
 
-.carousel-item { width: 100%;
+ .carousel-item {
+      width: 100%;
     height: 70vh;
 
+
 }
+.carousel-caption  {
+    @media (min-width: 600px) {
+        
+   
+        font-size: 10px;
+    
+    }
+} 
 img {
     height: 100%
  
@@ -754,15 +764,6 @@ a {
 .errorcode {
     color: white;
 }
-
-.carousel-caption  {
-    @media (min-width: 600px) {
-        
-   
-        font-size: 10px;
-    
-    }
-}  
 
 
   
