@@ -741,7 +741,7 @@ hr {
 }
 
 
-/*
+
 .input {
   color: rgba(192, 255, 192, 0.8);
   text-shadow:
@@ -752,7 +752,7 @@ hr {
 .input::before {
   content: "$ ";
 }
-*/
+
 
 a {
     color: #fff;
@@ -770,6 +770,6 @@ a {
     color: white;
 }
 
-
+    }
   
 /*# sourceMappingURL=main.css.map */
