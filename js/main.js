@@ -1,13 +1,36 @@
-document.querySelector("form").addEventListener("submit", handleSubmit);
+////////////////
+$.getJSON("./data.json",
+    function(respuesta, estado) {
+        if (estado === "success") {
 
-const handleSubmit = (e) => {
-  e.preventDefault()
-  let myForm = document.getElementById('pizzaOrder');
-  let formData = new FormData(myForm)
-  fetch('/', {
-    method: 'POST',
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString()
-  }).then(() => console.log('Form successfully submitted')).catch((error) =>
-    alert(error))
-}
+            for (const objeto of respuesta) {
+                productosArray.push(new Producto(objeto.nombre, objeto.categoria, objeto.precio, objeto.stock, objeto.descripcion, objeto.imagen))
+                console.log(productosArray)
+            }
+            mostrarProducto(productosArray)
+        }
+    })
+
+//
+
+
+//
+//
+//READY FUNC
+//
+//
+$(document).ready(function() {
+
+    if ("cart" in localStorage) {
+
+        const dato = JSON.parse(localStorage.getItem("cart"))
+
+
+        for (const productos of dato) {
+            carrito.push(new Producto(productos.nombre, productos.categoria, productos.precio, productos.stock, productos.descripcion, productos.imagen))
+
+        }
+    }
+
+
+})
