@@ -5,7 +5,7 @@ $.getJSON("./data.json",
 
             for (const objeto of respuesta) {
                 productosArray.push(new Producto(objeto.nombre, objeto.categoria, objeto.precio, objeto.stock, objeto.descripcion, objeto.imagen))
-                console.log(productosArray)
+            
             }
             mostrarProducto(productosArray)
         }
