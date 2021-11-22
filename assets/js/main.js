@@ -1,5 +1,5 @@
 ////////////////
-$.getJSON("./data.json",
+$.getJSON("/data.json",
     function(respuesta, estado) {
         if (estado === "success") {
 
