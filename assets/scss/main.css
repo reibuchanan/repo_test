@@ -787,7 +787,12 @@ a {
     color: white;
 }
   /********************BACKOFFICE*************************************************/
+#log_link{
+display: block;
+background-color: chartreuse;
+color: black;
 
+}
   #LoadProduct{
       background-color:#33ff33;
       color: black;
