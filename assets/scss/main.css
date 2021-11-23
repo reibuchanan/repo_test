@@ -84,6 +84,7 @@ title {
     margin: .4rem 0;
 }
 
+
 .content p {
     color: rgba(239, 247, 243, 0.959);
     text-shadow: 3px 3px 3px #070311;
@@ -92,10 +93,8 @@ title {
 }
 
 
-
-* {
-    margin: 0;
-    padding: 0;
+.card h5,h6{
+color: rgb(94, 0, 97);
 }
 
 
