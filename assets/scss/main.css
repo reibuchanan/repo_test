@@ -800,6 +800,30 @@ a {
     height: 10px;
     width: 10px;
 }
+#btn_3{
+    background-color: rgb(99, 8, 99);
+    color: white;
+    display: block;
+    height: 10px;
+    width: 10px;
+
+}
+
+#btnAdd3{
+    background-color: rgb(99, 8, 99);
+    color: white;
+    display: block;
+    height: 10px;
+    width: 10px;
+
+}
+#btn3{
+    background-color: rgb(99, 8, 99);
+    color: white;
+    display: block;
+    height: 10px;
+    width: 10px;
+}
 /*****
 /*********************************************************************/
 
