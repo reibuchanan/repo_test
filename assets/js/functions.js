@@ -1,10 +1,11 @@
 //
 //
-//MOSTRAR PRODUCTOS
 //
 //
 const imprimirDatos = document.getElementById("productosPrint")
-
+//
+//FUNC MOSTRAR PRODUCTOS
+//
 function mostrarProducto(productosArray) {
 
     productosArray.forEach(element => {
