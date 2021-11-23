@@ -1,3 +1,7 @@
+
+//
+//
+//
 class User {
 
     constructor(nombre, pass) {
@@ -6,13 +10,10 @@ class User {
     }
 
 }
-
-
-
+//
 const reine = new User("123", "123")
 
-
-
+//
 const logInBtn = document.getElementById("btnLogIn")
 logInBtn.addEventListener("click", e => {
     e.preventDefault()
@@ -22,12 +23,6 @@ logInBtn.addEventListener("click", e => {
 
 ////
 const UserLogIn = document.getElementById("UserLogIn")
-
-
-
-
-
-
 
 //
 const confirmacionDeAcceso = () => {
@@ -50,8 +45,8 @@ const confirmacionDeAcceso = () => {
 
 
 
-    ////
-    ///
+////
+///
 function formBody() {
     UserLogIn.innerHTML = `
     <form class="h-100" method="post">
@@ -86,7 +81,7 @@ function formBody() {
   </div></form>`
 
 
-
+   //
     const CargarProducto = document.getElementById("LoadProduct")
     CargarProducto.addEventListener("click", (e) => {
 
@@ -113,7 +108,5 @@ function ProductoCargado(nombre, categoria, precio, stock, imagen, descripcion) 
     productosArray.push(producto)
 
     localStorage.setItem("lista", JSON.stringify(productosArray))
-
-    console.log(productosArray)
 
 }
