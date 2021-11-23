@@ -49,7 +49,7 @@ const confirmacionDeAcceso = () => {
 
 
     } else {
-        console.log("URUARIO O CONTRASEÑA INCORRECTO");
+       alert("URUARIO O CONTRASEÑA INCORRECTO");
     }
 }
 
