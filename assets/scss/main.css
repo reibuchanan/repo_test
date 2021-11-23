@@ -773,8 +773,34 @@ a {
 
 
 
+/************************Toast*********************************************/
 
 
+#btn_2{
+    background-color: rgb(99, 8, 99);
+    color: white;
+    display: block;
+    height: 10px;
+    width: 10px;
+
+}
+
+#btnAdd2{
+    background-color: rgb(99, 8, 99);
+    color: white;
+    display: block;
+    height: 10px;
+    width: 10px;
+
+}
+#btn2{
+    background-color: rgb(99, 8, 99);
+    color: white;
+    display: block;
+    height: 10px;
+    width: 10px;
+
+/*****
 /*********************************************************************/
 
 #botonModal{
