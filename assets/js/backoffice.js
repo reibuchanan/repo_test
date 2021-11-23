@@ -62,19 +62,19 @@ function formBody() {
   
   <div class="input-group mb-3">
     <input type="text" class="form-control" id="form-2" placeholder="Categoria" aria-label="Categoria" aria-describedby="basic-addon2">
-    <span class="input-group-text" id="basic-addon2">@example.com</span>
+  
   </div>
   
   <label for="basic-url" class="form-label">Image URL</label>
   <div class="input-group mb-3">
-    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+    <span class="input-group-text" id="basic-addon3">https://example.com/</span>
     <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
   </div>
   
   <div class="input-group mb-3">
     <span class="input-group-text">$</span>
     <input type="text" id="form-3" class="form-control" placeholder="Precio" aria-label="Precio($)">
-    <span class="input-group-text">.00</span>
+   
   </div>
   
   <div class="input-group mb-3">
