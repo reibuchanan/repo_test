@@ -1,17 +1,24 @@
 ////////////////
-$.getJSON("/data.json",
+$.getJSON("./data.json",
     function(respuesta, estado) {
         if (estado === "success") {
 
             for (const objeto of respuesta) {
                 productosArray.push(new Producto(objeto.nombre, objeto.categoria, objeto.precio, objeto.stock, objeto.descripcion, objeto.imagen))
-            
+
+            }
+            if ("lista" in localStorage == []) {
+                localStorage.setItem("lista", JSON.stringify(productosArray))
             }
             mostrarProducto(productosArray)
         }
     })
 
 //
+//
+//
+
+
 
 
 //
