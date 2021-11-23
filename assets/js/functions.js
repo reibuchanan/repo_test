@@ -79,7 +79,7 @@ function cartCuerpo(carrito) {
 
     <div class="card">
 <img src="${element.imagen}"  class="cart-item-img"
-alt="${element.nombre}"height="50px" width="50px">
+alt="${element.nombre}"height="80px" width="80px">
       <h5 class="card_Subtitle">${element.nombre}</h5>
       <h5 class="card_title">${element.descripcion}</h5>
       <h6 class="card_title text-muted">${element.categoria}</h6>
