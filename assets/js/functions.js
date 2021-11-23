@@ -21,7 +21,7 @@ function mostrarProducto(productosArray) {
     <h5 class="card_Subtitle">${element.nombre}</h5>
     <h5 class="card_title">${element.descripcion}</h5>
     <h6 class="card_title text-muted">${element.categoria}</h6>
-    <p class="card-text">${element.precio}</p>
+    <p class="card-text">$${element.precio}</p>
     <button class="card-link" onclick="comprar(${index})">comprar
     </button>
   </div>
@@ -86,7 +86,7 @@ alt="${element.nombre}"height="50px" width="50px">
       <button id="btn_${element.id}">-</button>
       <p class="">${element.cantidad}</p>
       <button id="btnAdd${element.id}">+</button>
-      <p class="card-text">${element.precio*element.cantidad}</p>
+      <p class="card-text">$${element.precio*element.cantidad}</p>
 
    <button id="btn${element.id}">X</button>
 
@@ -219,7 +219,7 @@ const finalizarCompra = (carrito) => {
 
         carrito.forEach(e => {
 
-            monto += e.precio
+            monto += e.precio*e.cantidad
         })
         clearCart(carrito)
         localStorage.setItem("cart", JSON.stringify(carrito))
