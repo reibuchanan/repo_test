@@ -62,7 +62,6 @@ function formBody() {
   
   <div class="input-group mb-3">
     <input type="text" class="form-control" id="form-2" placeholder="Categoria" aria-label="Categoria" aria-describedby="basic-addon2">
-  
   </div>
   
   <label for="basic-url" class="form-label">Image URL</label>
