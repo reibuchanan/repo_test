@@ -821,6 +821,14 @@ width: 100px;
 height: 50px;
 
 }
+
+#UserLogIn{
+
+
+    display: block;
+    position: relative;
+    text-align: center;
+}
 #btnLogIn{
     background-color:#33ff33;
 
