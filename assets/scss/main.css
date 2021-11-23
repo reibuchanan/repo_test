@@ -786,5 +786,10 @@ a {
     background-color: rgb(148, 22, 127);
     color: white;
 }
-  
+  /********************BACKOFFICE*************************************************/
+
+  #LoadProduct{
+      background-color:#33ff33;
+      color: black;
+  }
 /*# sourceMappingURL=main.css.map */
