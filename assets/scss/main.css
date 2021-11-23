@@ -794,6 +794,8 @@ color: black;
 
 }
   #LoadProduct{
+      width: 30px;
+      height: 10px;
       background-color:#33ff33;
       color: black;
   }
