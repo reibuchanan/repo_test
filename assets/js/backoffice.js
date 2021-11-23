@@ -32,11 +32,6 @@ const UserLogIn = document.getElementById("UserLogIn")
 //
 const confirmacionDeAcceso = () => {
 
-    let bucle = true
-
-
-    // while (bucle) {
-
 
     const usuario = document.getElementById("floatingInput").value;
     const pass = document.getElementById("floatingPassword").value;
@@ -53,8 +48,8 @@ const confirmacionDeAcceso = () => {
     }
 }
 
-//}
-confirmacionDeAcceso()
+
+
     ////
     ///
 function formBody() {
