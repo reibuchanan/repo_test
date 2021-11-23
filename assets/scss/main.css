@@ -800,25 +800,27 @@ a {
     height: 10px;
     width: 10px;
 }
-#btn_3{
+
+/*******************************/
+.btn_Del{
     background-color: rgb(99, 8, 99);
     color: white;
     display: block;
-    height: 10px;
-    width: 10px;
+    height: 30px;
+    width: 40px;
 
 }
 
-#btnAdd3{
+.btn_Sum{
     background-color: rgb(99, 8, 99);
     color: white;
     display: block;
-    height: 10px;
-    width: 10px;
+    height: 30px;
+    width: 40px;
 
 }
-#btn3{
-    background-color: rgb(99, 8, 99);
+.btn_Min{
+    background-color: rgb(112, 5, 112);
     color: white;
     display: block;
     height: 10px;
