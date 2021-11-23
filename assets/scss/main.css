@@ -787,7 +787,7 @@ a {
     position: absolute;
     right: 0px;
     border: 3px solid #040700;
-    padding: 10px;
+    padding: 0px;
   }
 
 
@@ -801,7 +801,7 @@ a {
     position: absolute;
     right: 0px;
     border: 3px solid #040700;
-    padding: 10px;
+    padding: 0px;
   }
 
 
@@ -814,7 +814,7 @@ a {
     position: absolute;
   right: 0px;
   border: 3px solid #040700;
-  padding: 10px;
+  padding: 0px;
 }
 /*****
 /*********************************************************************/
