@@ -86,7 +86,7 @@ alt="${element.nombre}"height="50px" width="50px">
       <button id="btn_${element.id}">-</button>
       <p class="">${element.cantidad}</p>
       <button id="btnAdd${element.id}">+</button>
-      <p class="card-text">${element.precio}</p>
+      <p class="card-text">${element.precio*element.cantidad}</p>
 
    <button id="btn${element.id}">X</button>
 
