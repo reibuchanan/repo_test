@@ -56,7 +56,7 @@ function formBody() {
     UserLogIn.innerHTML = `
     <form class="h-100" method="post">
     <div class="input-group mb-3">
-    <span class="input-group-text" id="basic-addon1">nombre</span>
+   
     <input type="text" id="form-1" class="form-control" placeholder="Nombre" aria-label="Nombre" aria-describedby="basic-addon1">
   </div>
   
