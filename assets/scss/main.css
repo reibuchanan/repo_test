@@ -784,11 +784,9 @@ a {
     display: block;
     height: 30px;
     width: 40px;
-    position: absolute;
-    right: 0px;
+  
     border: 3px solid #040700;
-    padding: 0px;
-  }
+}
 
 
 
@@ -798,23 +796,21 @@ a {
     display: block;
     height: 30px;
     width: 40px;
-    position: absolute;
-    right: 0px;
+   
+   
     border: 3px solid #040700;
-    padding: 0px;
-  }
-
-
+  
+}
 .btn_Min{
     background-color: rgb(112, 5, 112);
     color: white;
     display: block;
     height: 30px;
     width: 40px;
-    position: absolute;
-  right: 0px;
+   
+ 
   border: 3px solid #040700;
-  padding: 0px;
+
 }
 /*****
 /*********************************************************************/
