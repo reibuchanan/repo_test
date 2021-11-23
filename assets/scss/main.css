@@ -92,7 +92,7 @@ title {
     font-size: 20px;
 }
 
-
+/*info productos card*/
 .card h5,h6{
 color: rgb(2, 56, 23);
 }
@@ -780,6 +780,11 @@ a {
 #botonModal{
     background-color:#33ff33;
     color: black;
+}
+/*********************************************************************/
+.card-link{
+    background-color: rgb(148, 22, 127);
+    color: white;
 }
   
 /*# sourceMappingURL=main.css.map */
